@@ -1,1 +1,1 @@
-baidu:50 admob:50
+baidu:0 admob:100
