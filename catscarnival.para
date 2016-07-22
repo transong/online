@@ -1,10 +1,10 @@
 UD_Ads_Banner_iOS_Cn <c> admob:50 <a> baidu:50
-UD_Ads_Inters_iOS_Cn <c> admob:40 <a> baidu:40 <a> chartboost:20
+UD_Ads_Inters_iOS_Cn <c> admob:40 <a> baidu:50<a> chartboost:10
 UD_Ads_Banner_Android_Cn <c> baidu:20 <a> admob:80
 UD_Ads_Inters_Android_Cn <c> baidu:30 <a> admob:70
 
 UD_Ads_Banner_iOS_En <c> admob:100
-UD_Ads_Inters_iOS_En <c> admob:50 <a> chartboost:50
+UD_Ads_Inters_iOS_En <c> admob:70 <a> chartboost:30
 UD_Ads_Banner_Android_En <c> admob:100
 UD_Ads_Inters_Android_En <c> admob:100
 
