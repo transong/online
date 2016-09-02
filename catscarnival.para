@@ -10,3 +10,5 @@ UD_Ads_Inters_Android_En <c> admob:100
 
 UD_IntersCount_MainMenu <c> 4
 UD_IntersCount_InGame <c> 6
+
+UD_Reward_Rate 1
