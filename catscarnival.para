@@ -20,4 +20,5 @@ UD_Reward_Rate <c> 1
 UD_Video_Count_Primo <c> 20
 UD_Video_Count_Secondo <c> 0
 UD_Video_Count <c> 30
+UD_Video_Reward <c> 10000
 
