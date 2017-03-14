@@ -22,3 +22,6 @@ UD_Video_Count_Secondo <c> 0
 UD_Video_Count <c> 30
 UD_Video_Reward <c> 1000
 
+UD_SelfAds_Count <c> 5
+
+
