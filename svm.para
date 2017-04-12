@@ -1,1 +1,19 @@
+UD_Ads_Banner_iOS_Cn <c> admob:50 <a> baidu:50
+UD_Ads_Inters_iOS_Cn <c> admob:50 <a> baidu:50
+UD_Ads_Video_iOS_Cn <c>  vungle:50 <a> unity:50
+UD_Ads_Banner_Android_Cn <c> baidu:50 <a> admob:50
+UD_Ads_Inters_Android_Cn <c> baidu:50 <a> admob:50
+UD_Ads_Video_Android_Cn <c> vungle:50 <a> adcolony:50
 
+UD_Ads_Banner_iOS_En <c> admob:100
+UD_Ads_Inters_iOS_En <c> admob:70
+UD_Ads_Video_iOS_En <c> vungle : 50 <a> unity : 50
+UD_Ads_Banner_Android_En <c> admob:100
+UD_Ads_Inters_Android_En <c> admob:100
+UD_Ads_Video_Android_En <c> vungle : 50 <a> unity : 50
+
+UD_IntersCount_MainMenu <c> 4
+UD_IntersCount_InGame <c> 6
+
+UD_Video_Count <c> 50
+UD_Video_Reward <c> 600
