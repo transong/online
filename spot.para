@@ -17,3 +17,5 @@ UD_IntersCount_InGame <c> 6
 
 UD_Video_Count <c> 50
 UD_Video_Reward <c> 600
+
+UD_RateReward_ShowTimes <c> 3
