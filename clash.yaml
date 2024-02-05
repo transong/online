@@ -1,0 +1,60 @@
+allow-lan: false
+experimental:
+  ignore-resolve-fail: true
+external-controller: 127.0.0.1:9090
+log-level: debug
+mode: Rule
+port: 7890
+proxies:
+- alterId: 0
+  cipher: auto
+  name: v2fly-cn-1
+  port: 10001
+  server: 140.179.157.110
+  type: vmess
+  uuid: 217aedc0-d521-45dd-8235-4cd9776ab0e1
+- alterId: 0
+  cipher: auto
+  name: v2fly-cn-2
+  port: 10001
+  server: 71.132.30.78
+  type: vmess
+  uuid: 217aedc0-d521-45dd-8235-4cd9776ab0e1
+- alterId: 0
+  cipher: auto
+  name: bj-office
+  port: 10001
+  server: 114.240.52.131
+  type: vmess
+  uuid: 217aedc0-d521-45dd-8235-4cd9776ab0e1
+- alterId: 0
+  cipher: auto
+  name: cd-office-unicom
+  port: 10001
+  server: 210.15.64.20
+  type: vmess
+  uuid: 217aedc0-d521-45dd-8235-4cd9776ab0e1
+proxy-groups:
+- interval: 300
+  name: "\u81EA\u52A8\u9009\u62E9\u5FEB\u901F\u8282\u70B9"
+  proxies:
+  - v2fly-cn-1
+  - v2fly-cn-2
+  - bj-office
+  - cd-office-unicom
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 300
+  name: "\u624B\u52A8\u9009\u62E9\u8282\u70B9"
+  proxies:
+  - v2fly-cn-1
+  - v2fly-cn-2
+  - bj-office
+  - cd-office-unicom
+  type: select
+  url: http://www.gstatic.com/generate_204
+rules:
+- GEOIP,CN,DIRECT
+- "MATCH,\u81EA\u52A8\u9009\u62E9\u5FEB\u901F\u8282\u70B9,\u624B\u52A8\u9009\u62E9\
+  \u8282\u70B9"
+socks-port: 7891
